@@ -10,7 +10,7 @@ CS 22B, Fall 2026 · Team 12: Aleksandra (Ola) Szymula, Fatima Garcia, Carolyna 
 - **File:** https://celltypes.brain-map.org/cell_types_specimen_details.csv
 - **One row = one neuron** recorded in a slice of mouse or human brain tissue.
 
-Opening the file link downloads the CSV. Save it as `data/cell_types_specimen_details.csv`.
+`01_loading_and_cleaning.ipynb` downloads this file into `data/` automatically the first time it runs, so you don't need to download it yourself.
 
 ## Notebooks
 
@@ -25,15 +25,13 @@ Run `01_loading_and_cleaning.ipynb` first. The other notebooks read `data/neuron
 ## Running in Google Colab
 
 1. Open the notebook in Colab (File → Open notebook → GitHub tab, then paste the repo URL).
-2. In the Files panel on the left, create a folder named `data`.
-3. Upload `cell_types_specimen_details.csv` into that folder.
-4. Run all cells (Runtime → Run all).
+2. Run all cells (Runtime → Run all). The first cell downloads the data.
 
-Colab deletes uploaded files when the session ends, so repeat steps 2 and 3 each time.
+The other notebooks need `data/neurons_clean.csv`. Colab deletes files when the session ends, so in a new session run `01_loading_and_cleaning.ipynb` first, in the same session.
 
 ## Running in Jupyter
 
-Clone the repo, put the CSV in `data/`, and run the notebook from the repo folder.
+Clone the repo and run the notebook from the repo folder. The data downloads on the first run.
 
 ## Libraries
 
