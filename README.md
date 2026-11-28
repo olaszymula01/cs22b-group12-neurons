@@ -16,18 +16,18 @@ CS 22B, Fall 2026 · Team 12: Aleksandra (Ola) Szymula, Fatima Garcia, Carolyna 
 
 | Notebook | What it does | Lead |
 | --- | --- | --- |
-| `01_loading_and_cleaning.ipynb` | Loads and inspects the raw file, cleans it, saves `data/neurons_clean.csv` | Ola |
-| `02_analysis.ipynb` | Filtering, grouping and aggregation on the cleaned data | Fatima |
-| `03_visualizations.ipynb` | Plots and interpretation | Caro |
+| `team12_final_notebook.ipynb` | **Combined notebook (draft):** Part 1 cleaning, Part 2 analysis, Part 3 plots, conclusion | All |
+| `01_loading_and_cleaning.ipynb` | Part 1 on its own: loads and inspects the raw file, cleans it, saves `data/neurons_clean.csv` | Ola |
+| `02_grouping_and_analysis.ipynb` | Parts 1 and 2: filtering, grouping and aggregation on the cleaned data | Fatima |
 
-Run `01_loading_and_cleaning.ipynb` first. The other notebooks read `data/neurons_clean.csv`, which it creates. For the final submission, the three parts are combined into one notebook.
+`team12_final_notebook.ipynb` is the one to submit. It runs from start to finish on its own. Part 3 (plots, led by Caro) and the conclusion are still to be filled in.
 
 ## Running in Google Colab
 
 1. Open the notebook in Colab (File → Open notebook → GitHub tab, then paste the repo URL).
 2. Run all cells (Runtime → Run all). The first cell downloads the data.
 
-The other notebooks need `data/neurons_clean.csv`. Colab deletes files when the session ends, so in a new session run `01_loading_and_cleaning.ipynb` first, in the same session.
+The other notebooks need `data/neurons_clean.csv`. Colab deletes files when the session ends, so in a new session run the cleaning part first, in the same session.
 
 ## Running in Jupyter
 
